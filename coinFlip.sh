@@ -40,3 +40,4 @@ function percentage(){
 read -p "Enter flips : " flips
 
 singletMax=$( coinFlip $flips $ONE_COIN )
+doubletMax=$( coinFlip $flips $TWO_COIN )
